@@ -18,7 +18,10 @@ const splitFirstAndLastNames = (str) => str.split(' ');
  * personAge({ id: 1, name: 'Someone', age: 32}) => 32
  */
 
-const personAge = (personObject) => personObject.age;
+const isNameInArray = (arr, name) => {
+  return arr.includes(name);
+}
+
 
 
 /** =========================
