@@ -32,7 +32,7 @@ function rectArea(sideA, sideB) {
 
 let room1 = rectArea(4, 6);
 let room2 = rectArea(13, 3);
-let room3 = rectArea(4, 9);
+let room3 = rectArea(4, 8);
 
 
 
